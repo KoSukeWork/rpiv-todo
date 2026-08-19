@@ -52,8 +52,7 @@
     "tool/sanitize.ts",
     "tool/types.ts",
     "view/format.ts",
-    "vendor/rpiv-config/",
-    "dist"
+    "vendor/rpiv-config/"
   ],
   "pi": {
     "image": "https://raw.githubusercontent.com/juicesharp/rpiv-mono/main/packages/rpiv-todo/docs/cover.png",
