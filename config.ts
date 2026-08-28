@@ -1,5 +1,5 @@
-import type { GuidanceFields } from "@juicesharp/rpiv-config";
-import { loadJsonConfigWithLegacyFallback, validateGuidanceFields } from "@juicesharp/rpiv-config";
+import type { GuidanceFields } from "./vendor/rpiv-config/index.js";
+import { loadJsonConfigWithLegacyFallback, validateGuidanceFields } from "./vendor/rpiv-config/index.js";
 
 interface TodoConfig {
 	guidance?: GuidanceFields;
