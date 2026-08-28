@@ -7,6 +7,11 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Fixed
+
+- Retry transient deferred module imports with bounded backoff and clear failed attempts so later lifecycle events can load the extension.
+- Resolve the bundled `rpiv-config` through a repository-relative vendor import so Windows package Junctions are not required during cold startup.
+
 ## [2.6.2] - 2026-08-18
 
 ### Changed
