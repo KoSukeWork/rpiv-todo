@@ -24,7 +24,8 @@
     "access": "public"
   },
   "scripts": {
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:lazy": "vitest run lazy-extension.test.ts"
   },
   "files": [
     "config.ts",
@@ -74,5 +75,8 @@
   "dependencies": {
     "@juicesharp/rpiv-config": "file:./vendor/rpiv-config",
     "typebox": "^1.1.24"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.11"
   }
 }
